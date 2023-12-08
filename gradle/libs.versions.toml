@@ -1,0 +1,15 @@
+[versions]
+asm = "9.6"
+
+[libraries]
+paper-api = { group = "io.papermc.paper", name = "paper-api", version = "1.20.2-R0.1-SNAPSHOT" }
+mapping-io = { group = "net.fabricmc", name = "mapping-io", version = "0.5.1" }
+asm = { group = "org.ow2.asm", name = "asm", version.ref = "asm" }
+asm-commons = { group = "org.ow2.asm", name = "asm-commons", version.ref = "asm" }
+jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version = "24.1.0" }
+
+[plugins]
+shadow = { id = "com.github.johnrengelman.shadow", version = "8.1.1" }
+plugin-yml = { id = "net.minecrell.plugin-yml.bukkit", version = "0.6.0" }
+run-paper = { id = "xyz.jpenilla.run-paper", version = "2.2.2" }
+licenser = { id = "org.cadixdev.licenser", version = "0.6.1" }
